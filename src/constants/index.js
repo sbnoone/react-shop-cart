@@ -1,0 +1,19 @@
+const PRODUCTS_URL = 'http://localhost:3001/products'
+const CART_PRODUCTS_URL = 'http://localhost:3001/cart'
+const PRODUCTS_PER_PAGE = 10
+const ADD_TO_CART = 'a'
+const DELETE_PRODUCT = 'd'
+const INCREMENT_CART_ITEM = 'inc'
+const DECREMENT_CART_ITEM = 'dec'
+const DELETE_FROM_CART = 'dfc'
+
+export {
+  PRODUCTS_URL,
+  PRODUCTS_PER_PAGE,
+  CART_PRODUCTS_URL,
+  ADD_TO_CART,
+  DELETE_PRODUCT,
+  INCREMENT_CART_ITEM,
+  DECREMENT_CART_ITEM,
+  DELETE_FROM_CART,
+}
